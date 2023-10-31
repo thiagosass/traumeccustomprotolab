@@ -1,0 +1,112 @@
+.bloco-form{
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:  0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.bloco-form:hover{    
+    box-shadow:  0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.tabela{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.coluna-codigo{
+    display: inline-block;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.coluna-descricao{
+    display: inline-block;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.coluna-valor{
+    display: inline-block;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tabela label{
+    padding: 4px;
+    font-size: 15px;
+    background-color: #204e80;
+    margin: 2px;
+    border-radius: 2px;
+    color: white;
+}
+
+.tabela input{
+    padding: 4px;
+    background-color: #d3e6ee;
+    margin: 2px;
+    border-radius: 2px;
+    border: 1px solid #a8a8a8;
+}
+
+.tabela input:focus{
+    outline: none;
+}
+
+.box-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sucesso-envio-orçamento{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(23, 141, 23);
+    background-color: rgb(174, 235, 174);
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+.botao-orcamento {
+    padding: 15px 40px;
+    background-color: #204e80;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 24px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: 0;
+  }
+  
+  .botao-orcamento:hover {
+    background-color: #38699e;
+    transform: translateY(-3px);
+  }
+
+  .botao-orcamento:focus {
+    background-color: #6595c9;
+    color: #002752;    
+  }
+
+  .botao-orcamento:active {
+    background-color: #6595c9;
+    color: #002752;    
+  }

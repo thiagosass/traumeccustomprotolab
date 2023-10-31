@@ -1,0 +1,58 @@
+main{
+    display: flex;    
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.listagem-casos-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    padding-top: 120px;
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow:  0 0 6px rgba(0, 0, 0, 0.5);  
+    position: sticky; /* Torna a div fixa */
+    top: 0; /* Mantém a div no topo da janela */
+    z-index: 1;
+}
+
+.lista-casos-box{
+    display: flex;    
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 100px;
+    width: 100%;
+    background-color: white;
+}
+
+.lista-casos-box h1{
+    font-size: 40px;
+    color:#204e80;
+}
+
+.sem-casos-cadastrados-box{
+    display: flex;    
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 100px;
+    padding: 30px 40px;
+    box-shadow:  0 0 4px rgba(0, 0, 0, 0.5);   
+    background-color: white;
+}
+
+.sem-casos-cadastrados-box:hover{
+    box-shadow:  0 0 8px rgba(0, 0, 0, 0.5);  
+}
+
+.sem-casos-cadastrados{
+    font-size: 16px;
+    font-weight: bold; 
+    color:#204e80;   
+}

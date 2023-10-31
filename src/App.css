@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(245, 242, 242);
+}
+
+.bloco-form-seguimentacao{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-seguimentacao{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:  0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.form-seguimentacao:hover{    
+    box-shadow:  0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.bloco-tempo-registro{
+    min-width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bloco-tempo-registro label{
+    font-size: 18px;
+    font-weight: bold;
+    color: #002752;
+}
+
+.box-button-seguimentacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 300px;
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box-button-aprov-recuse{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao-orcamento-aprov {
+    padding: 15px 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: #204e80; 
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 24px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: 0;
+}
+
+.botao-orcamento-aprov:hover {
+    background-color: rgb(131, 216, 120);
+    color: #275823;
+    transform: translateY(-3px);
+}
+
+.botao-orcamento-aprov:focus {
+    background-color: #6595c9;
+    color: #002752;    
+}
+
+.botao-orcamento-aprov:active {
+    background-color: #6595c9;
+    color: #002752;    
+}
+
+.botao-orcamento-seg-recuse{
+    padding: 15px 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: #204e80; /* Cor de fundo original */
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 24px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: 0;
+}
+
+.botao-orcamento-seg-recuse:hover {
+    background-color: rgb(253, 170, 62);
+    color: rgb(99, 76, 28);
+    transform: translateY(-3px);
+}
+
+.botao-orcamento-seg-recuse:focus {
+    background-color: rgb(253, 170, 62);
+    color: rgb(99, 76, 28);    
+}
+
+.botao-orcamento-aprov-recuse:active {
+    background-color: #6595c9;
+    color: #002752;    
+}
+
+.botao-orcamento-aprov-cancel:focus {
+    background-color: #6595c9;
+    color: #002752;    
+}
+
+.botao-orcamento-aprov-cancel:active {
+    background-color: #6595c9;
+    color: #002752;    
+}

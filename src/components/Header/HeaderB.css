@@ -1,0 +1,142 @@
+.header-b {
+    min-width: 800px;
+    min-height: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+    background-color: #204e80; 
+    color: white; 
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 999; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.registro-caso-header{
+    width: 45%;    
+    padding-top: 40px;
+    padding-left: 30px;
+    font-size: 17px;
+}
+
+.registro-caso-header-b{    
+    min-width: 350px;
+    max-width: 450px;
+    
+}
+
+.dados-caso-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    background-color: #0d2e52;
+}
+
+.dados-caso-header Label{
+    font-weight: bold;
+}
+
+.dados-caso-header span{
+    font-size: 16px;
+}
+
+.paciente{
+    padding-top: 40px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    width: 10%; 
+}
+
+.paciente h3{
+    font-size: 20px;
+    margin-top: 0px;
+    font-weight: bold;
+    color: white;
+}
+
+.paciente span{
+    font-size: 20px;
+    margin-top: -15px;
+}
+
+.box-right{
+    display: flex;
+    justify-content: end;
+    width: 45%;  
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.box-user{
+    display: flex;
+    align-items: first baseline;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.filter-logo-header-b{
+    filter: grayscale(100%) brightness(500%);
+    margin-bottom: 8px;
+}
+
+.logo-header-b{
+    filter: grayscale(100%) brightness(500%);
+}
+
+.icone-header-b{
+    width: 25px; 
+    height: 25px;
+    background-color: #0d2e52;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icone-header-b:hover{
+    background-color: #103964;
+    box-shadow: 0 0px 2px rgba(196, 194, 194, 0.397);
+}
+
+.user-profile-log {  
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;        
+}
+
+.user-profile-log span{
+    margin-left: 10px;
+}
+
+.font-usuario{
+    font-size: 14px;
+}
+
+.menu-paginas{
+    margin-top: 30px;
+}
+
+.menu-select-paginas{
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #0d2e52;
+    color: white;
+    border: none;
+}
+
+.menu-select-paginas:focus{
+    outline: none;
+}
+
+
+  

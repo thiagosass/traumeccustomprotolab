@@ -1,0 +1,74 @@
+.headerA {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  min-width: 750px;
+  padding: 30px 0px;
+  background-color: #204e80; /* Cor de fundo do cabeçalho */
+  color: white; /* Cor do texto */
+  position: fixed; /* Torna o cabeçalho fixo */
+  top: 0; /* Fixa o cabeçalho no topo da página */
+  width: 100%; /* Ocupa toda a largura da janela */
+  z-index: 999; /* Certifique-se de que o cabeçalho fique acima de outros elementos */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para estilo */
+}
+
+.box-icons{
+  width: 33%;
+}
+
+.icons {    
+  display: flex;
+  justify-content: flex-start; /* Isso alinhará os itens à direita */
+  align-items: center;
+  padding-left: 30px;
+}
+
+.logo_empresa{
+  display: flex;
+  justify-content: center; /* Isso alinhará os itens à direita */
+  align-items: center;
+  width: 33%;
+}
+
+.filter-logo{
+  filter: grayscale(100%) brightness(500%);   
+  display: flex;
+  justify-content: center; /* Isso alinhará os itens à direita */
+  align-items: center;
+}
+
+.logo{
+  filter: grayscale(100%) brightness(500%);
+}
+
+.box-user-header{
+  display: flex;
+  justify-content: right; 
+  align-items: center; 
+  flex-direction: row;
+  width: 33%;
+}
+
+.user-profile {
+  display: flex;/* Isso alinhará os itens à direita */
+  align-items: center; 
+  padding-right: 30px;
+}
+
+.icone{
+  width: 25px; 
+  height: 25px;    
+  background-color: #0d2e52;
+  padding: 10px;
+  border-radius: 25px;  
+  margin-right: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}  
+
+.icone:hover{
+  background-color: #103964;
+  box-shadow: 0 0px 2px rgba(196, 194, 194, 0.397);
+}
+
+  

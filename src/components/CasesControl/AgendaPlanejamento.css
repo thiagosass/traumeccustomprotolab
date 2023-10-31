@@ -1,0 +1,117 @@
+.bloco-planejamento{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box-button-seguimentacao{
+    padding: 20px;
+}
+
+.bloco-data-planejamento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.select-date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 240px;
+    height: 100px;
+    margin-right: 40px;
+    padding: 20px;    
+    border-radius: 10px;
+    background-color: white;
+    box-shadow:  0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.select-date .selecao-data-label{
+    font-size: 15px;
+    font-weight: bold;
+    color: #204e80;
+}
+
+.botao-selecionar-zip{
+    margin-top: 30px;
+}
+
+.select-date label{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.select-date input{
+    font-size: 15px;
+    margin-bottom: 10px;
+    width: 120px;
+}
+
+.select-time input{
+    font-size: 15px;
+    width: 100px;
+    padding-left: 20px;
+}
+
+.data-planejamento{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 180px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow:  0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.bloco-data-planejamento .data-planejamento label{
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #204e80;
+}
+
+.bloco-data-planejamento .data-planejamento span{
+    font-size: 15px;
+    color: #3b3b3b;
+}
+
+.dados-data-planejamento{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.caixa-upload-arquivos-planejamento{
+    width: 500px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow:  0 0 4px rgba(0, 0, 0, 0.5);
+}
+.caixa-upload-arquivos-planejamento label{
+    font-size: 15px;
+    font-weight: bold;
+    color: #204e80;
+}
+
+.botao-selecionar-zip{
+    font-size: 12px;
+}
+
+

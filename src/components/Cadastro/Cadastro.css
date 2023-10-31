@@ -1,0 +1,122 @@
+.plataform-name{
+  margin-top: 30px;
+}
+
+.login-form h2{
+  color: #204e80;
+  margin-bottom: 20px;  
+}
+
+.mensagem-sucesso{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 15px;
+  background-color: rgb(174, 235, 174);
+  border-radius: 25px;
+}
+
+.mensagem-sucesso p{  
+  margin: auto;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(23, 141, 23);  
+}
+
+.usertype {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #204e80;
+    font-weight: bold;
+  }
+  
+  .usertype div {    
+    margin: 10px 20px;    
+  }
+
+  .bloco-cadastro-align{       
+    display: flex;
+    flex-direction: row; /* Garanta que os blocos de cadastro estejam na mesma linha */    
+    justify-content: space-between;     
+  }
+
+  .bloco-cadastro{
+    flex-basis: calc(50% - 10px); /* Ajuste o tamanho dos blocos para ocupar metade do espaço com 10px de espaço entre eles */
+    display: flex;
+    flex-direction: column;
+    max-width: 100%; /* Certifique-se de que o bloco não exceda a largura máxima */
+    margin: 10px;
+  }
+
+  .cadastro{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .cadastro label{
+    color: #204e80;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-bottom: 3px;
+  }
+
+  .cadastro-input{
+    font-size: 18px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow:  0 0 2px rgba(0, 0, 0, 0.24); 
+    font-size: 15px;
+    color: #204e80;
+    font-weight: 400;
+    padding: 8px;
+  }
+
+  .cadastro-input:focus {         
+    outline: none; 
+    border: 1px solid #575757;
+  }
+  
+  .error-message{
+    display: flex;
+    align-items: center;    
+    font-size: 11px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 5px 10px;
+    margin-bottom: 8px;
+    border-radius: 12px;
+    color: rgb(230, 0, 0);
+    background-color: rgb(250, 182, 182);
+  }
+
+  .login-input {
+    margin-bottom: 0px;      
+    height: 35px;       
+    background: white;    
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 15px;
+    color: #204e80;
+    font-weight: 400;    
+    position: relative;
+    padding-right: 20px;
+    padding-left: 10px;
+  }
+
+  .aling-button{
+    text-align: center;
+  }
+
+  
+
+  

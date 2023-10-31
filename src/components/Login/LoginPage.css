@@ -1,0 +1,235 @@
+  .login-page {
+    display: flex;
+    height: 100vh;
+  }
+
+  .background-image {
+    width: 50%;
+    height: 100%;
+    background-image: url('/public/cirurgia2.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column; /* Alinhar verticalmente */
+    justify-content: flex-start; /* Alinhar na parte superior */
+    align-items: flex-start; /* Centralizar horizontalmente */  
+    filter: brightness(120%) saturate(20%) opacity(75%);
+  }
+
+  .filter{
+    filter: grayscale(100%) brightness(500%);
+    min-width: 300px;
+  }
+
+  .background-image img{
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+    margin-top: 48px;
+  }
+
+  .campo-direito {
+    flex: 1; /* Isso permite que ele cresça para ocupar o espaço disponível */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .plataform-name {
+    font-size: 40px;  
+    text-align: center;
+    font-weight: bold;
+    color: #204e80;
+  }
+
+  .login-form {
+    flex: 1; /* Isso permite que ele cresça para ocupar o espaço disponível */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }    
+
+  .log-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding:30px;          
+    margin-top: -80px;     
+    min-width: 400px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow:  0 0 4px rgba(0, 0, 0, 0.5);       
+  }
+
+  .login-form h2{
+    color: #204e80;
+    padding: 20px;
+    margin-bottom: 40px;    
+    font-size: 18px;    
+  }
+
+  .login-form .log-error p{   
+    border-radius: 10px;
+    padding: 3px 10px; 
+    margin-bottom: 25px;
+    color: rgb(230, 0, 0);
+    font-size: 13px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(250, 182, 182);
+  }
+
+  .input-with-icon {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */    
+    background-color: #204e80;
+    border-radius: 20px;   
+    margin-bottom: 40px;
+  }
+  
+  /* Estilo para os inputs de login */
+  .login-input {
+    margin-bottom: 0px;      
+    height: 35px;       
+    background: white;    
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 15px;
+    color: #204e80;
+    font-weight: 400;    
+    position: relative;
+    padding-right: 20px;
+    padding-left: 10px;
+  }
+
+  .login-input:focus {         
+    outline: none; /* Remova a borda de foco padrão do navegador */
+    border: 1px solid #575757;
+  }
+
+  .login-input::placeholder{
+    font-size: 14px;
+    color: #0f3763be;    
+    transition: color 0.1s ease-out;
+  }
+
+  .login-input:focus,
+  .login-input:focus::placeholder {
+    color:#0f3863cb;   
+  }  
+  
+  .icon {    
+    width: 40px; /* Ajuste o tamanho conforme necessário */
+    height: 20px; /* Ajuste o tamanho conforme necessário */
+    margin-right: 10px; /* Espaçamento entre o ícone e o input */
+    padding-bottom: 3px;
+    padding-left: 10px;    
+  }
+
+    /* Estilo para o botão de login */
+  .login-button {
+    padding: 15px 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #204e80; /* Cor de fundo original */
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 24px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: 0;
+  }
+
+  /* Estilo para o botão de login quando hover (passa o mouse) */
+  .login-button:hover {
+    background-color: #38699e; /* Cor de fundo com transparência */
+    transform: translateY(-3px);
+  }
+
+  .login-button:focus {
+    background-color: #6595c9;
+    color: #002752;    
+  }
+
+  .login-button:active {
+    background-color: #6595c9;
+    color: #002752;    
+  }
+  
+  .login-link {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .login-form p{
+    color: #204e80;
+    font-size: 14px;
+  }
+
+  .cadastre-se-button{
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: rebeccapurple;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+  }
+
+  .cadastre-se-button:hover{
+    text-decoration: none;
+    color: rgb(145, 86, 204);
+  }
+
+  .custom-link:focus {    
+    text-decoration: none;
+    color: rgb(53, 52, 114);
+    outline: none;  
+  }
+
+  .cadastre-se-button:active{
+    text-decoration: none;
+    color: rgb(53, 52, 114);
+  }
+
+  .recuperar-senha-button{
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: rebeccapurple;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+  }
+
+  .recuperar-senha-button:hover{
+    text-decoration: none;
+    color: rgb(145, 86, 204);
+  }
+
+  .recuperar-senha-button:active{
+    text-decoration: none;
+    outline: none;
+    color: rgb(53, 52, 114);
+  }
+
+  .recuperar-senha-button:active{
+    text-decoration: none;
+    color: rgb(53, 52, 114);
+  }
+
+  a:focus{
+    outline: 0;
+    border: none;
+    text-decoration: none;
+    color: rgb(167, 109, 224);
+  }

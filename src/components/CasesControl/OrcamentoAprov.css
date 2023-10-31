@@ -1,0 +1,255 @@
+.bloco-form-aprov{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:  0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.bloco-form-aprov:hover{
+    box-shadow:  0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.tabela-aprov{
+    padding: 20px;
+    margin-right: 20px;
+    width: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.coluna-codigo-aprov{
+    display: inline-block;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.coluna-descricao-aprov{
+    display: inline-block;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.coluna-valor-aprov{
+    display: inline-block;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tabela-aprov label{
+    padding: 5px;
+    font-size: 17px;
+    background-color: #204e80;
+    margin: 2px;
+    border-radius: 2px;
+    color: white;
+}
+
+.tabela-aprov span{
+    font-size: 15px;
+    padding: 2px;
+    color: #3b3b3b;
+    background-color: #d3e6ee;
+    border: 1px solid #a8a8a8;
+    margin: 2px;
+    border-radius: 2px;
+}
+
+.tabela-aprov input:focus{
+    outline: none;
+}
+
+.valor-orcamento{
+    width: 100%; 
+    margin-bottom: 15px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.valor-orcamento label{
+    margin-left: 5px;
+    font-weight: bold;
+    color: #204e80;
+}
+
+.valor-orcamento span{
+    font-size: 20px;
+    margin-right: 5px;
+    color: #3b3b3b;
+}
+
+.box-button-aprov{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.box-button-aprov-recuse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.box-button-aprov .botao-orcamento-aprovar {
+    width: 100%;
+    padding: 15px 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #204e80; /* Cor de fundo original */
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 24px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: 0;
+}
+
+.box-button-aprov .botao-orcamento-aprovar:hover {
+    background-color: rgb(131, 216, 120);
+    color: #275823;
+    transform: translateY(-3px);
+}
+
+.box-button-aprov .botao-orcamento-aprovar:focus {
+    background-color: #6595c9;
+    color: #002752;    
+}
+
+.box-button-aprov .botao-orcamento-aprovar:active {
+    background-color: #6595c9;
+    color: #002752;    
+}
+
+.box-button-aprov .botao-orcamento-aprov-recuse{
+    background-color: #204e80; /* Cor de fundo original */
+    color: #fff;
+    padding: 15px 40px;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 24px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: 0;
+}
+
+.box-button-aprov .botao-orcamento-aprov-recuse:hover {
+    background-color: rgb(253, 170, 62);
+    color: rgb(99, 76, 28);
+    transform: translateY(-3px);
+}
+
+.box-button-aprov .botao-orcamento-aprov-recuse:focus {
+    background-color: rgb(253, 170, 62);
+    color: rgb(99, 76, 28);   
+}
+
+.box-button-aprov .botao-orcamento-aprov-recuse:active {
+    background-color: #6595c9;
+    color: #002752;     
+}
+
+.box-button-aprov .botao-orcamento-aprov-cancel{
+    padding: 15px 40px;
+    background-color: #204e80; 
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 24px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: 0;
+}
+
+.box-button-aprov .botao-orcamento-aprov-cancel:hover {
+    background-color: rgb(243, 83, 83);
+    color: rgb(114, 14, 14);
+    transform: translateY(-3px);
+}
+
+.box-button-aprov .botao-orcamento-aprov-cancel:focus {
+    background-color: rgb(243, 83, 83);
+    color: rgb(114, 14, 14);   
+}
+
+.box-button-aprov .botao-orcamento-aprov-cancel:active {
+    background-color: #6595c9;
+    color: #002752;    
+}
+
+.recusa-dialog{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.caixa-de-dialogo-recusa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.caixa-de-dialogo-recusa label{
+    margin-bottom: 10px;
+    color: #002752;
+}
+
+.caixa-de-dialogo-recusa textarea {
+    max-width: 280px;
+    min-width: 280px;
+    min-height: 100px;
+    border: 1px solid #575757;
+    outline: none; /* Remova a borda quando em foco */
+}
+
+.caixa-de-dialogo-submit{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.caixa-de-dialogo-submit button{
+   outline: none;
+   background-color: #bbd8e4;
+   color: #3b3b3b;
+   border: none;
+   border-radius: 18px;
+   padding:10px;
+}
+
+.caixa-de-dialogo-submit button:hover{   
+    background-color: #84bad1;   
+    color: white;
+ }
+
+
+

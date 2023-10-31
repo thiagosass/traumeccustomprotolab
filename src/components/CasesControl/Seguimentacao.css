@@ -1,0 +1,94 @@
+.bloco-seguimentacao{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.bloco-seguimentacao label{
+    font-size: 15px;
+    font-weight: bold;
+    color: #204e80;
+}
+
+.bloco-seguimentacao span{
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #3b3b3b;
+}
+
+.bloco-temporizador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;   
+    min-width: 240px; 
+    padding: 20px;
+    margin-right: 40px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow:  0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.tempo-registro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.data-inicio-etapa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tempo-registro{
+    margin-bottom: 10px;
+}
+
+.data-inicio-etapa label{
+    margin-bottom: 10px;    
+}
+
+.tempo-registro label{
+    margin-bottom: 10px;
+}
+
+.caixa-upload-arquivos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow:  0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.seguimentacao-upload{
+    width: 100%;
+    background-color: white;
+}
+
+.botao-selecionar-zip{
+    width: 100%;
+    padding: 15px 40px;
+    background-color: #204e80; 
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 24px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: 0;
+}
+
+.botao-selecionar-zip:hover {
+    background-color: #6595c9;
+    color: #002752;
+    transform: translateY(-3px);
+}

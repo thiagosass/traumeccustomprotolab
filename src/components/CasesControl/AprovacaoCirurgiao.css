@@ -1,0 +1,69 @@
+.bloco-aprov-cirurgiao{
+  border-radius: 10px;
+  background-color: white;
+  box-shadow:  0 0 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: -10px;
+  margin-top: 40px;
+}
+
+.relatorio-export{
+  width: 300px;
+}
+
+.box-button-aprov-recuse-aprov-cirurgiao{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 300px;
+  margin-bottom: -20px;
+}
+
+.botao-selecionar-relatorio{
+    width: 100%;
+    margin-top: 5px;
+    padding: 15px 50px;
+    border-radius: 30px;
+    background-color: #204e80;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    border: none;
+    transition: all 0.3s ease;
+    outline: 0;
+  }
+
+  /* Estilo para o botão de login quando hover (passa o mouse) */
+  .botao-selecionar-relatorio:hover {
+    background-color: #6595c9;
+    color: #002752;  
+    transform: translateY(-3px);
+  }
+
+  .botao-selecionar-relatorio:focus {
+    background-color: #6595c9;
+    color: #002752;    
+  }
+
+  .botao-selecionar-relatorio:active {
+    background-color: #6595c9;
+    color: #002752;    
+  }
+
+  .box-button-aprov-recuse-aprov-cirurgiao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 300px;
+  }
+
+  .box-button-aprov-recuse-aprov-cirurgiao .botao-orcamento-aprov{
+    font-size: 12px;
+  }
+
+  .box-button-aprov-recuse-aprov-cirurgiao .botao-orcamento-seg-recuse{
+    font-size: 12px;
+  }
+
+
