@@ -65,6 +65,7 @@
     flex-direction: column;
     margin-right: 10px;
     margin-left: 10px;
+    margin-bottom: 10px;
   }
 
   .cadastro label{
@@ -126,6 +127,29 @@
     text-align: center;
   }
 
-  
+  @media only screen and (max-width: 820px) {
+
+.bloco-cadastro-align{
+  flex-direction: column;
+}
+
+.bloco-cadastro{
+  margin-bottom: -10px;
+}
+
+.log-form h2{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.usertype{
+  margin-bottom: 20px;
+}
+
+.aling-button{
+  margin-top: 20px;
+}
+
+} 
 
   

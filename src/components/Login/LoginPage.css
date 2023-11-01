@@ -240,6 +240,7 @@ a:focus{
 @media only screen and (max-width: 820px) {
 
   .login-page {
+    width: 100%;
     display: flex;  
     align-items: center;
     flex-direction: column;  
@@ -252,6 +253,7 @@ a:focus{
     background-color: #204e80; /* Definir a cor de fundo para smartphones */
     filter: none; /* Remover o filtro */
     max-height: 150px;
+    min-height: 150px;
     display: flex;
     align-items: center;
   }
@@ -268,6 +270,7 @@ a:focus{
   .log-form {
     margin-top: 0; /* Remover o recuo superior */
     min-width: 90%; /* Ajustar a largura do formulário */
+    width: 280px;
   }
 
   .login-form {
