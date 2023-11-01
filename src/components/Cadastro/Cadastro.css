@@ -2,9 +2,18 @@
   margin-top: 30px;
 }
 
-.login-form h2{
+.cadastro-form h2{
   color: #204e80;
   margin-bottom: 20px;  
+}
+
+.cadastro-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  font-size: 12px;
 }
 
 .mensagem-sucesso{

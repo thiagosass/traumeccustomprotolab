@@ -103,7 +103,7 @@ const Cadastro = () => {
           <div className='campo-direito'>
             <h1 className='plataform-name'>Controle de Produtos Customizados</h1>
 
-            <div className="login-form">
+            <div className="cadastro-form">
 
                 <form className='log-form' onSubmit={handleSubmit}>
                     <h2>Selecione seu cadastro como cirurgião ou distribuidor:</h2>
