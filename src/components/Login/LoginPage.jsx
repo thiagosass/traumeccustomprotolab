@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './LoginPage.css';
 import PasswordIcon from '../../assets/password.svg';
-import EmailIcon from '../../assets/email.svg';
+import EmailIcon from '../../assets/user2.svg';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
@@ -44,6 +44,11 @@ const LoginPage = () => {
     }
   };
 
+  const handleAccessWithoutLogin = () => {
+    // Redirecionar para a página home sem autenticação
+    navigate('/home');
+  };
+
   return (
     <div className="login-page">
 
@@ -74,6 +79,11 @@ const LoginPage = () => {
               <img src={PasswordIcon} alt="Password Icon" className="icon"/>
               <input className="login-input" type="password" placeholder="Senha" value={senha} onChange={(e) => setSenha(e.target.value)}/>
             </div>
+
+            {/* Novo link para acesso sem login */}
+            <button className="login-button" onClick={handleAccessWithoutLogin}>
+              Acesso provisório sem login
+            </button>
 
             <button className="login-button" type="submit">Entrar</button>
             <p className="login-link">Não tem uma conta? <a href="/cadastro" className="cadastre-se-button">Cadastre-se</a></p>

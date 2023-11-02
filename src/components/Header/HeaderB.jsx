@@ -95,7 +95,7 @@ function HeaderB() {
                         alt="perfil"
                     />
                     </a>
-                    <span className="font-usuario">{userName}</span>            
+                    <span className="font-usuario">{userName}Usuário em Testes</span>            
                 </div>
                 <div className='menu-paginas'>
                     {/* Menu suspenso */}
@@ -110,6 +110,7 @@ function HeaderB() {
                         <option value="/home/aprovacaocirurgiao">Aprovação Cirurgião</option>
                         <option value="/home/preparo">Preparo</option>
                         <option value="/home/desenhotecnico">Desenho Técnico</option>
+                        <option value="/home">Home</option>
                     </select>  
                 </div>
             </div>                      
