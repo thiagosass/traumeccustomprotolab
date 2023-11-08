@@ -32,7 +32,7 @@ function AprovacaoCirurgiao() {
       };
 
       // Realize uma solicitação POST para a rota com o ID do caso
-      fetch(`http://localhost:3003/cases/recusarelatoriocaso/${idcaso}`, {
+      fetch(`https://traumec-customprotolab.com.br/cases/recusarelatoriocaso/${idcaso}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -85,7 +85,7 @@ function AprovacaoCirurgiao() {
 
     if (idcaso) {
       // Realize uma solicitação GET para obter o valor de 'comentario'
-      fetch(`http://localhost:3003/cases/recusarelatoriocaso/${idcaso}`)
+      fetch(`https://traumec-customprotolab.com.br/cases/recusarelatoriocaso/${idcaso}`)
       .then((response) => response.json())
       .then((data) => {
         // Atualize o estado 'comentario' com os dados obtidos

@@ -8,6 +8,8 @@
   height: 100%;
   background-image: url('/public/cirurgia2.jpg');
   background-size: cover;
+  background-color: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  background-position: center;
   display: flex;
   flex-direction: column; /* Alinhar verticalmente */
   justify-content: flex-start; /* Alinhar na parte superior */

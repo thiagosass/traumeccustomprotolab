@@ -46,7 +46,7 @@ function Seguimentacao() {
       // Verifica se idcaso existe antes de realizar a solicitação GET
       if (idcaso) {
         // Realize a solicitação GET para obter o valor de recusa de seguimentação
-        fetch(`http://localhost:3003/cases/recusaseguimentacao/${idcaso}`)
+        fetch(`https://traumec-customprotolab.com.br/cases/recusaseguimentacao/${idcaso}`)
           .then((response) => response.json())
           .then((data) => {
             setComentario(data.recusaSeguimentacao);

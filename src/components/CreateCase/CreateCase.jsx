@@ -34,10 +34,10 @@ function CreateCase() {
                     console.log('User ID:', userId);                    
                     console.log('Decoded Token:', decodedToken);
     
-                    let cirurgioesRoute = 'http://localhost:3003/select-options/cirurgioes';
+                    let cirurgioesRoute = 'https://traumec-customprotolab.com.br/select-options/cirurgioes';
     
                     if (userType === 1) {
-                        cirurgioesRoute = `http://localhost:3003/select-options/cirurgioes/${userId}`;
+                        cirurgioesRoute = `https://traumec-customprotolab.com.br/select-options/cirurgioes/${userId}`;
                     }
 
                     console.log('Requesting URL:', cirurgioesRoute);
@@ -62,10 +62,10 @@ function CreateCase() {
                     const userType = decodedToken.userType;
                     const userId = decodedToken.userId;
     
-                    let distribuidoresRoute = 'http://localhost:3003/select-options/distribuidores';
+                    let distribuidoresRoute = 'https://traumec-customprotolab.com.br/select-options/distribuidores';
     
                     if (userType === 2) {
-                        distribuidoresRoute = `http://localhost:3003/select-options/distribuidores/${userId}`;
+                        distribuidoresRoute = `https://traumec-customprotolab.com.br/select-options/distribuidores/${userId}`;
                     }
     
                     const response = await axios.get(distribuidoresRoute);
@@ -81,7 +81,7 @@ function CreateCase() {
         // Função para buscar os tipos de produtos
         const fetchTipoProduto = async () => {
             try {
-                const response = await axios.get('http://localhost:3003/select-options/tipodeproduto');
+                const response = await axios.get('https://traumec-customprotolab.com.br/select-options/tipodeproduto');
                 setTipoProduto(response.data);
             } catch (error) {
                 console.error('Erro ao buscar nomes de distribuidores', error);
@@ -178,7 +178,7 @@ function CreateCase() {
                     }
     
                     // Realize a solicitação POST para o endpoint da API do servidor
-                    const response = await axios.post('http://localhost:3003/select-options/inserircaso', formData, {
+                    const response = await axios.post('https://traumec-customprotolab.com.br/select-options/inserircaso', formData, {
                         headers: {
                             'Content-Type': 'multipart/form-data', // Define o tipo de conteúdo como FormData
                         },

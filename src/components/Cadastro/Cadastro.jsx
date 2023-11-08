@@ -62,7 +62,7 @@ const Cadastro = () => {
         if (isValid) {
         try {
         // Envie os dados para o servidor
-        const response = await fetch(`http://localhost:3003/users/cadastro${userType}`, {
+        const response = await fetch(`https://traumec-customprotolab.com.br/users/cadastro${userType}`, {
             method: 'POST',
             headers: {
             'Content-Type': 'application/json',

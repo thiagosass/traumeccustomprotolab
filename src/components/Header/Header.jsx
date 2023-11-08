@@ -43,7 +43,7 @@ function Header() {
             <div className='box-user-header'>
                 <div className="user-profile">
                     {/* Perfil do usuário no canto direito */}
-                    <a href="http://localhost:3000/home"><img className='icone' src={userPerfil} alt="perfil" /></a>
+                    <a href="https://traumec-customprotolab.com.br/home"><img className='icone' src={userPerfil} alt="perfil" /></a>
                     <span>{userName}</span>
                 </div>
             </div>

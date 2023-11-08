@@ -16,7 +16,7 @@ const LoginPage = () => {
 
     try {
         // Faça a solicitação POST para a rota de login no backend
-        const response = await axios.post('http://localhost:3003/users/login', {
+        const response = await axios.post('https://traumec-customprotolab.com.br/users/login', {
           nomeUsuario,
           senha,
         });

@@ -48,7 +48,7 @@ function OrcamentoAprov() {
       // Realize a requisição POST para a rota com o ID do caso
       if (idcaso) {
           // Realize uma requisição POST para a rota com o ID do caso
-          fetch(`http://localhost:3003/cases/recusaorcamento/${idcaso}`, {
+          fetch(`https://traumec-customprotolab.com.br/cases/recusaorcamento/${idcaso}`, {
               method: 'POST',
               headers: {
                   'Content-Type': 'application/json',
@@ -85,7 +85,7 @@ function OrcamentoAprov() {
   
       if (idcaso) {
         // Realize uma requisição POST para a rota com o ID do caso
-        fetch(`http://localhost:3003/cases/casocancelado/${idcaso}`, {
+        fetch(`https://traumec-customprotolab.com.br/cases/casocancelado/${idcaso}`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -115,7 +115,7 @@ function OrcamentoAprov() {
 
     if (idcaso) {
       // Realize a solicitação GET para obter o valor do comentário
-      fetch(`http://localhost:3003/cases/recusaorcamento/${idcaso}`)
+      fetch(`https://traumec-customprotolab.com.br/cases/recusaorcamento/${idcaso}`)
         .then((response) => response.json())
         .then((data) => {
           setComentario(data.recusaOrcamento);

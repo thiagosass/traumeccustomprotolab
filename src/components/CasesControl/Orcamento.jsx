@@ -15,7 +15,7 @@ function Orcamento() {
 
     useEffect(() => {
         // Realize a solicitação GET para obter o valor de recusaOrcamento
-        fetch(`http://localhost:3003/cases/recusaorcamento/${idcaso}`)
+        fetch(`https://traumec-customprotolab.com.br/cases/recusaorcamento/${idcaso}`)
             .then((response) => response.json())
             .then((data) => {
                 setRecusaOrcamento(data.recusaOrcamento); // Substitua 'recusaOrcamento' pelo nome do campo que você espera receber
@@ -28,7 +28,7 @@ function Orcamento() {
     const enviarOrcamento = async (event) => {
         event.preventDefault();
         try {
-          await axios.post('http://localhost:3003/timeline/atualizarOrcamento', { idcaso });
+          await axios.post('https://traumec-customprotolab.com.br/timeline/atualizarOrcamento', { idcaso });
           setEnvioSucesso(true); // Ativa a mensagem de sucesso
           setTimeout(() => {
             // Redireciona para a página inicial após 3 segundos

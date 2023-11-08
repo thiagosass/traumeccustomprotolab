@@ -22,11 +22,11 @@ function HomePage() {
           const tipoUsuario = decodedToken.userType;
           const idUsuario = decodedToken.userId
           
-          let rota = 'http://localhost:3003/cases/listadecasos';
+          let rota = 'https://traumec-customprotolab.com.br/cases/listadecasos';
           
           if (tipoUsuario === 1 || tipoUsuario === 2) {
             // Se o tipo_usuario for 1 ou 2, use a rota alternativa
-            rota = `http://localhost:3003/cases/listadecasos/${idUsuario}`;
+            rota = `https://traumec-customprotolab.com.br/cases/listadecasos/${idUsuario}`;
           }
 
           const response = await axios.get(rota);

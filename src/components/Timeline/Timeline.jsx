@@ -20,7 +20,7 @@ function Timeline() {
         const idcaso = getCaseId(); // Obter o idcaso do localStorage
     
         if (idcaso) {
-          const apiUrl = `http://localhost:3003/timeline/status/${idcaso}`; // Atualize com a URL correta da sua API
+          const apiUrl = `https://traumec-customprotolab.com.br/timeline/status/${idcaso}`; // Atualize com a URL correta da sua API
     
           axios.get(apiUrl)
             .then(response => {

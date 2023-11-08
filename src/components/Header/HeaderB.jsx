@@ -35,7 +35,7 @@ function HeaderB() {
   useEffect(() => {
     // Realize a solicitação para obter os detalhes do caso
     axios
-      .get(`http://localhost:3003/cases/caso/${idcaso}`)
+      .get(`https://traumec-customprotolab.com.br/cases/caso/${idcaso}`)
       .then((response) => {
         const caseData = response.data;
         setCaseDetails(caseData);
